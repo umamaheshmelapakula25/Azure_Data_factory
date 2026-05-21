@@ -1,0 +1,27 @@
+{
+	"name": "DS_CSV_TARGET",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_ADLS_SOURCE_CSV",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "ADLS_DATASETS"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "sample_submission.csv",
+				"folderPath": "raw",
+				"fileSystem": "bronze"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
