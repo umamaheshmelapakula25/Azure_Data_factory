@@ -1,0 +1,15 @@
+{
+	"name": "mahesh1DataFactory",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9eeccbf2-b79e-4444-871e-0d0236befe44",
+		"tenantId": "f5098fce-396c-4a2c-a770-4f4105a628cd"
+	}
+}
