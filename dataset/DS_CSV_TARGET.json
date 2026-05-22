@@ -14,7 +14,7 @@
 			"location": {
 				"type": "AzureBlobFSLocation",
 				"fileName": "sample_submission.csv",
-				"folderPath": "raw",
+				"folderPath": "processedFiles",
 				"fileSystem": "bronze"
 			},
 			"columnDelimiter": ",",
